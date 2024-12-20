@@ -13,6 +13,7 @@ html {
 
 
 
+
 .main0{
     width:100dvw ;
     height:10dvh;
@@ -23,6 +24,15 @@ html {
     align-items: center;
 
 }
+.iconH{
+    width:50px ;
+    height:50px;
+    position: absolute;
+    position: fixed;
+    right: 60px;
+    top: 400px;
+}
+
 
 .debut{
     width:1300px ;
@@ -153,7 +163,7 @@ html {
 }
 
 .reseaux{
-    width: 50px ;
+    width: 70px ;
     height:15px;
      
     background-color: #ffffff;
@@ -164,16 +174,17 @@ html {
 
 }
 .iconreseaux{
-    width: 15px ;
-    height:15px;
+    width: 20px ;
+    height:20px;
     background-color: #ffffff;
 
 
 }
 
 .imgreseau{
-    width: 20px ;
-    height:20px;
+    width: 25px ;
+    height:25px;
+    border-radius: 5px;
      
     background-color: #ffffff;
     border-color: black;
@@ -182,8 +193,8 @@ html {
 }
 
 .iconcarre{
-    width: 25px ;
-    height:25px;
+    width: 30px ;
+    height:30px;
      
     background-color: #ffffff;
     display: flex;
@@ -301,8 +312,8 @@ html {
 
 
 .info{
-    width: 200px ;
-    height:150px;
+    width: 250px ;
+    height:175px;
      
     background-color: #ffffff;
     border-color: black;
@@ -768,6 +779,7 @@ input {
     font-family: "Inconsolata";
     font-weight: bold;
     font-size: 15px;
+    color: black;
 }
 
 .iconbande{
@@ -859,4 +871,108 @@ input {
     font-weight: bold;
     color: rgb(138, 141, 139);
     font-size: 15px;
+}
+@media  screen and (max-width:767px) {
+    .debut {
+        width: 100vw;
+        display: flex;
+    }
+    .identite {
+        width: 60px;
+        position: initial;
+    }
+    .domaine{
+        
+    }
+    .contact {
+        position: static;
+    }
+    .sommaire {
+        width: 80%;
+    }
+    .main1 {
+       height:90dvh;
+    }
+    .couverture {
+        width: 80%;
+    }
+    .textecouverture {
+        width: 80%;
+    }
+    .phrase1 {
+        font-size: 25px;
+    }
+    .info {
+        width: 20%;
+    }
+    .main4{
+        height: auto;
+    }
+    .album {
+        flex-direction: column;
+        width: 100%;
+    }
+    .colonne {
+        width: auto;
+    }
+    .main5 {
+        display: block;
+    }
+    .titrecontact{
+        position: static;
+    }
+    .formulaire {
+        width: 100%;
+    }
+    .debutformulaire{
+        width: 100%;
+    }
+    .sectiontype2 {
+        width: 100%;
+        height: 120px;
+    }
+    .decobande{
+        width: 100%;
+    }
+    .navigateurbande {
+        width: 100%;
+        justify-content: normal;
+    }
+    .phrasebande {
+        width: 100%;
+    }
+    .phrasebande01 {
+        font-size: 20px;
+    }
+    .contactbande {
+        display: none ;
+    }
+    .main3 {
+        height: auto;
+    }
+    .affichagehobby {
+        flex-direction: column-reverse;
+        height: auto;
+        margin-bottom: 100px;
+        width: 100%;
+    }
+    .couverturehobby1{
+        width: 740px;
+    }
+    .couverturehobby2 {
+        width: 90%;
+        margin-bottom: 300px;
+    }
+    .parcour {
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 140px;
+    }
+    .hobby {
+        width: 90%;
+        margin: 25px 5px;
+    }
+
+
+
 }

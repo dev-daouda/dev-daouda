@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main0">
+
+    <div class="main0" id="main0">
         <div class="debut">
             <div class="identite">
                 <a href=" " class="logo">
@@ -29,22 +30,20 @@
                 </div>
             </div>
         </div>
-
-
-       
+        <a href="#main0" class="lienHome"><img src="./Image/iconHome.png" alt="" class="iconH"></a>
     </div>
     <div class="navigateur">
         <div class="sommaire">
-            <a href="" class="link a-propos-de-moi sommairetexte">A propos de moi</a>
-            <a href="" class=" link mes-creations sommairetexte">Mes Creations</a>
-            <a href="" class="link contactezmoi sommairetexte" id="contactez-moi">Contactez-moi</a>
+            <a href="#main3" class="link a-propos-de-moi sommairetexte">A propos de moi</a>
+            <a href="#main4" class=" link mes-creations sommairetexte">Mes Creations</a>
+            <a href="#main5" class="link contactezmoi sommairetexte" id="contactez-moi">Contactez-moi</a>
         </div>
         <div class="reseaux">
-            <a href="" class="iconreseaux">
+            <a href="https://www.instagram.com/telperien.photos/profilecard/?igsh=eHBjanlwd3Vycndi" class="iconreseaux">
                 <img src="./Image/Instagram.png" alt="" class="imgreseau">
 
             </a>
-            <a href=" " class="iconreseaux">
+            <a href=" https://www.linkedin.com/in/daouda-diabate-772991327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="iconreseaux">
                 <img src="./Image/LinkedinIcon.png" alt="" class="imgreseau">
                 
             </a>
@@ -56,7 +55,7 @@
             <div class="textecouverture">
                 <h1 class="phrase1">Je me present: <br>Je m'appelle Daouda ! </h1>
                 <p class="phrase2">Web Developper à Paris</p>
-                <button class="contactez-moi">contactez-moi</button>
+                <a href="#main5" class="contactez-moi0"><button class="contactez-moi">contactez-moi</button></a>
             </div>
             
         </div>
@@ -77,18 +76,18 @@
         </div>
         <div class="info">
             <img src="./Image/ok-vert.png" alt="" class="iconcarre">
-            <h1 class="titrecarre2">titrecarre</h1>
-            <p class="textecarre">textecarre</p>
+            <h1 class="titrecarre2">Compétences numériques</h1>
+            <p class="textecarre">Word, Powerpoint, Excel, Visual Studio Code</p>
         </div>
         <div class="info">
             <img src="./Image/ok-vert.png" alt="" class="iconcarre">
-            <h1 class="titrecarre2">titrecarre</h1>
-            <p class="textecarre">textecarre</p>
+            <h1 class="titrecarre2">Polyglotte</h1>
+            <p class="textecarre">Italien courrament, anglais</p>
         </div>
     </div>
 
 
-    <div class="main3">
+    <div class="main3" id="main3">
         <div class="affichagehobby">
             <div class="couverturehobby1">
                 <div class="decoimg"></div>
@@ -101,7 +100,7 @@
                 <p class="apdm2">Passionné par la technologie et mes loisirs créatifs, je me reconvertis dans le numérique. Rigoreux et organisé, je vise une spécialisation en cybersécurité.</p>
                 <div class="hobby"><P class="textehobby">Mes passions : <br> Le numérique, la cuisine, la musique, le basket, l'organisation</P></div>
                 <p class="apdm3">Le travail d’équipe, l’organisation et le sens du détail, développés à travers le basket, la cuisine, la musique et la photographie sont des atouts essenttiells dans le numérique. Aujourd’hui, je m’appuie sur ces qualités et sur mes experiences pour me former et évoluer dans ce domaine.</p>
-                <button class="buttonapdm">Télechargez mon CV</button>
+                <a href="./Image/CV-DIABATE.pdf" class="pdfcv"><button class="buttonapdm">Télechargez mon CV</button></a>
             </div>
         </div>
 
@@ -142,7 +141,7 @@
 
 
 
-    <div class="main4">
+    <div class="main4" id="main4">
         <div class="bandegallerie">
             <h1 class="titregallerie">Mes creations</h1>
             <p class="textegallerie">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod et voluptates reiciendis sapiente autem praesentium corporis consequatur iusto. Neque aspernatur odit pariatur, reprehenderit asperiores ipsa earum ab ea ipsum culpa?<br><br></p>
@@ -194,9 +193,9 @@
 
 
 
-    <form action="https://formspree.io/f/manyrayn" method="post">
-        <div class="main5">
-            <h1 class="titrecontact">Contact</h1>
+    <div class="main5" id="main5">
+        <h1 class="titrecontact">Contact</h1>
+        <form action="https://formspree.io/f/manyrayn" method="post">
             <div class="formulaire">
                 <div class="debutformulaire">
                     <div class="colonneformulaire">
@@ -214,7 +213,7 @@
                             <label for="Societe">Nom de votre societe</label>
                             <input name="Forsociete" id="Societe" type="text">
                         </div>
-                        <div class="Section">
+                        <div class="section">
                             <label for="Numero">Numéro de telephone</label>
                             <input name="Fornumero" id="Numero" type="text">
                         </div>
@@ -233,9 +232,11 @@
                 </div>
 
             </div>
-        </div>
+        </form>
 
-      </form>
+    </div>
+
+  
 
 
 
@@ -261,7 +262,7 @@
                     <div class="sectionbande">
                         <div class="iconbande"><img src="./Image/bandeiconLinkedin.png" alt="" class="imgiconbande"></div>
                         <p class="phrasebande1">TROUVEZ MOI —</p>
-                        <p class="phrasebande2">XXXXXXX</p>
+                        <a href="https://www.linkedin.com/in/daouda-diabate-772991327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="phrasebande2">www.linkedin.com/in/daouda-diabate<p class="phrasebande2"></p></a>
                     </div>
                 </div>
                 
@@ -278,17 +279,17 @@
                 </div>
             </div>
             <div class="sommaire enbas1">
-                <a href="" class="link a-propos-de-moi">A propos de moi</a>
-                <a href="" class=" link mes-creations">Mes Creations</a>
-                <a href="" class="link contactezmoi" id="contactez-moi">Contactez-moi</a>
+                <a href="#main3" class="link a-propos-de-moi">A propos de moi</a>
+                <a href="#main4" class=" link mes-creations">Mes Creations</a>
+                <a href="#main5" class="link contactezmoi" id="contactez-moi">Contactez-moi</a>
             </div>
             <div class="reseaux enbas2">
                 <a href="" class="iconreseaux">
-                    <img src="./Image/Instagram.png" alt="" class="imgreseau">
+                    <img src="./Image/Instagram.png" alt="https://www.instagram.com/telperien.photos/profilecard/?igsh=eHBjanlwd3Vycndi" class="imgreseau">
     
                 </a>
                 <a href=" " class="iconreseaux">
-                    <img src="./Image/LinkedinIcon.png" alt="" class="imgreseau">
+                    <img src="./Image/LinkedinIcon.png" alt="https://www.linkedin.com/in/daouda-diabate-772991327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="imgreseau">
                     
                 </a>
             </div>
