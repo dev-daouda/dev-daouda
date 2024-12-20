@@ -379,7 +379,7 @@ html {
 
 .affichagehobby{
     width: 1220px ;
-    height:490px;
+    height: 490px;
      
     border-color: black;
     display: flex;
@@ -873,23 +873,43 @@ input {
     font-size: 15px;
 }
 @media  screen and (max-width:767px) {
+
+    .iconH{
+        display: none;
+    }
+    
     .debut {
         width: 100vw;
         display: flex;
+    }
+    .profil{
+        display: none;
     }
     .identite {
         width: 60px;
         position: initial;
     }
-    .domaine{
-        
+    .contactdroite{
+        height: 50%;
     }
+
+
+ 
     .contact {
         position: static;
     }
+    .moncontact{
+        font-size: 10px;
+    }
+
     .sommaire {
         width: 80%;
+        justify-content: space-around;
     }
+    .sommairetexte{
+        font-size: 10px ;
+    }
+
     .main1 {
        height:90dvh;
     }
@@ -902,8 +922,17 @@ input {
     .phrase1 {
         font-size: 25px;
     }
+    .exp {
+        height: 175px;
+    }
+
     .info {
         width: 20%;
+        height: 200px;
+    }
+
+    .titrecarre1{
+        font-size: 20px;
     }
     .main4{
         height: auto;
@@ -952,16 +981,24 @@ input {
     }
     .affichagehobby {
         flex-direction: column-reverse;
-        height: auto;
-        margin-bottom: 100px;
+        margin-bottom: 560px;
         width: 100%;
+ 
     }
     .couverturehobby1{
         width: 740px;
+        position: relative;
     }
     .couverturehobby2 {
         width: 90%;
         margin-bottom: 300px;
+    }
+    .buttonapdm{
+        position: absolute;
+        width: 80px;
+        height: 30px;
+        left: 40%;
+        font-size: 10px;
     }
     .parcour {
         width: 100%;
@@ -971,6 +1008,29 @@ input {
     .hobby {
         width: 90%;
         margin: 25px 5px;
+    }
+    .main6{
+        height: 25%;
+    }
+    .decobande{
+        height: 150px;
+
+    }
+    .bande{
+        height: auto;
+
+    }
+    .navigateurbande{
+        height: 65px;
+    }
+    form {
+        padding: 10px;
+    }
+    .faitpar{
+        font-size: 10px;
+    }
+    .copyright{
+        font-size: 10px;
     }
 
 
