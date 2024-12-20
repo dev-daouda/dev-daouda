@@ -1,0 +1,862 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+}
+html {
+    overflow-x: hidden;
+}
+.link{
+   text-decoration: none;
+}
+
+
+
+
+.main0{
+    width:100dvw ;
+    height:10dvh;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.debut{
+    width:1300px ;
+    height:100%;
+    border-bottom: solid rgb(196, 195, 195);
+    background-color: #ffffff;
+
+
+
+}
+
+
+
+.identite{
+    height: 60px;
+    width: 300px;
+     
+    border-color: black;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 200px;
+    top: 10px;
+
+
+}
+
+
+.imglogo{
+    width: 60px ;
+    height: 35px;
+}
+
+
+
+.profil{
+    width: 250px ;
+    height:30px;
+     
+    background-color: #ffffff;
+}
+.nom{
+    font-family: sans-serif;
+ 
+    font-size: 20px;
+    -webkit-text-stroke: 1px black;
+    color: white;
+
+}
+.domaine{
+    font-size: 8px;
+    color: rgb(162, 169, 165);
+}
+.contact{
+    width: 600px ;
+    height:60px;
+     
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 200px;
+    top: 10px;
+
+}
+.contactdroite{
+    width: 50% ;
+    height:65%;
+     
+    background-color: #ffffff;
+    position: relative;
+
+
+}
+
+.phrasecontact{
+    font-family: "Inconsolata";
+    color: rgb(158, 158, 158);
+    font-size: 10px;
+}
+
+.moncontact{
+     
+    border-color: black;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.navigateur{
+    width:100dvw ;
+    height:5dvh;
+     
+    background-color: #ffffff;
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.sommaire{
+    width: 800px ;
+    height:15px;
+    background-color: #ffffff;
+    border-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sommairetexte{
+    font-size: 14px;
+    color: rgb(149, 154, 151);
+    font-weight: bold;
+    font-family: "Inconsolata";
+}
+
+.reseaux{
+    width: 50px ;
+    height:15px;
+     
+    background-color: #ffffff;
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.iconreseaux{
+    width: 15px ;
+    height:15px;
+    background-color: #ffffff;
+
+
+}
+
+.imgreseau{
+    width: 20px ;
+    height:20px;
+     
+    background-color: #ffffff;
+    border-color: black;
+    display: flex;
+
+}
+
+.iconcarre{
+    width: 25px ;
+    height:25px;
+     
+    background-color: #ffffff;
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main1{
+    width:100dvw ;
+    height:60dvh;
+     
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.videobc{
+    width: 100vw ;
+    height:100vh;
+    border-radius: 10px;
+     
+    background-color: #ffffff;
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: -1;
+    position: absolute;
+
+
+}
+.couverture{
+    width: 920px ;
+    height:490px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.imgcouverture{
+    width: 100%;
+    height: 100%;
+    z-index: -0.5;
+
+
+}
+
+.textecouverture{
+    width: 700px ;
+    height:300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    left: 30px;
+
+}
+
+.phrase1{
+    font-family: "Poppins";
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.phrase2{
+    font-size: 20px;
+    font-family: "inconsolata";
+    font-weight: bold;
+}
+
+.contactez-moi{
+    width: 150px;
+    height: 50px;
+    background-color:transparent ;
+    font-family: "inconsolata";
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.main2{
+    width:100dvw ;
+    height:25dvh;
+     
+    background-color: #ffffff;
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.info{
+    width: 200px ;
+    height:150px;
+     
+    background-color: #ffffff;
+    border-color: black;
+    flex-direction: column;
+
+}
+
+.titrecarre1{
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(176, 201, 138);
+}
+
+.titrecarre2{
+    font-family: "Inconsolata";
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.textecarre{
+    font-family: "Inconsolata";
+    color: rgb(162, 169, 165);
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main3{
+    width:100dvw ;
+    height:100dvh;
+     
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+}
+
+
+
+.affichagehobby{
+    width: 1220px ;
+    height:490px;
+     
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.couverturehobby1{
+    width: 60% ;
+    height:100%;
+     
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:relative;
+}
+
+
+.decoimg{
+    width: 700px ;
+    height:211px;
+     
+    background-color: black;
+}
+.imghobby1{
+    width: 211px ;
+    height:350px;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 10px;
+    position: absolute;
+    left: 180px;
+    bottom: 40px;
+    z-index: 2;
+}
+.imghobby2{
+    width: 211px ;
+    height:350px;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 10px;
+    position: absolute;
+    left: 330px;
+    bottom: 100px;
+    z-index: 1;
+    
+}
+
+
+
+.couverturehobby2{
+    width: 40% ;
+    height:100%;
+     
+    border-color: black;
+    display: flex;
+
+    justify-content: space-around;
+    flex-direction: column;
+}
+.titreapdm{
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.apdm1{
+    font-family: "Inconsolata";
+    font-weight: bold;
+    font-size: 20px;
+}
+.apdm2{
+    font-family: "Inconsolata";
+    font-weight: bold;
+    color: rgb(162, 169, 165);
+    font-size: 15px;
+}
+.hobby{
+    width: 490px;
+    height:60px;
+    background-color: rgb(176, 201, 138);
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.textehobby{
+    color: white;
+    font-family: "Inconsolata";
+    font-weight: bold;
+    text-align: center;
+}
+.apdm3{
+    font-family: "Inconsolata";
+    color: rgb(162, 169, 165);
+    font-size: 14px;
+}
+.buttonapdm{
+    width: 150px;
+    height: 50px;
+    background-color:transparent ;
+    font-family: "inconsolata";
+    font-weight: bold;
+}
+
+
+
+
+.parcour{
+    width: 1220px ;
+    height:220px;
+     
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.exp{
+    width:500px ;
+    height: 110px;
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+.main4{
+    width:100dvw ;
+    height: 100dvh;
+     
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.titregallerie{
+    font-family: "Poppins";
+    font-size: 50px;
+    font-weight: bold;
+}
+.textegallerie{
+    font-family: "Inconsolata";
+    font-weight: bold;
+    color: rgb(162, 169, 165);
+    font-size: 15px;
+    border-bottom: solid rgb(196, 195, 195);
+}
+
+.bandegallerie{
+    width:70% ;
+    height:15%;
+     
+    border-color: black;
+}
+
+.album{
+    width:70% ;
+    height:85%;
+     
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.colonne{
+    width:35% ;
+    height:100%;
+     
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.section{
+    width:100px ;
+    height:80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgalbum{
+    width:250px ;
+    height:250px;
+    border-radius: 25px;
+}
+.legende{
+    font-family: "Inconsolata";
+    color: rgb(162, 169, 165);
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+.main5{
+    width:100dvw ;
+    height: 100dvh;
+    position: relative;
+     
+    border-color: black;
+    justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.titrecontact{
+    position: absolute;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(176, 201, 138);
+    right: 600px;
+    top: 73px;
+}
+
+.formulaire{
+    width:600px ;
+    height:700px;
+    border-top: solid rgb(176, 201, 138);
+    border-width: 10px;
+     
+
+}
+
+.debutformulaire{
+    width:600px ;
+    height:350px;
+     
+    border-color: black;
+    display: flex;
+}
+
+.colonneformulaire{
+    width:350px ;
+    height:350px;
+     
+    border-color: black;
+
+    
+}
+input {
+    height: 20%;
+    border: transparent;
+    border-bottom: solid;
+    margin-right: 10px;
+}
+#formessage {
+    height: 50%;
+}
+
+
+.section{
+    width: 100%;
+    height: 50%;
+     
+    border-color: black;
+
+    position: relative;
+
+}
+.label{
+    left: 0px;
+    top: 60px;
+    position: absolute;
+}
+
+
+
+.sectiontype2{
+    width: 600px;
+    height: 175px;
+     
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.submit{
+    width: 150px;
+    height: 50px;
+    background-color:transparent ;
+    font-family: "inconsolata";
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.main6{
+    width: 100dvw;
+    height: 45dvh;
+     
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.decobande{
+    width: 1600px;
+    height: 350px;
+    background-color: rgb(176, 201, 138);
+    border-radius: 15px;
+    justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.bande{
+    width: 800px;
+    height: 300px;
+     position: relative;
+}
+
+.phrasebande{
+    width: 800px;
+    height: 125px;
+     
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.phrasebande01{
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 50px;
+}
+.phrasebande02{
+    font-family: "Inconsolata";
+    font-weight: bold;
+    color: rgb(138, 141, 139);
+    font-size: 15px;
+}
+
+.contactbande{
+    position: absolute;
+    width: 800px;
+    height: 125px;
+    display: flex;
+    bottom: 0px;
+
+}
+
+.sectionbande{
+    width: 266px;
+    height: 100px;
+     
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.sms{
+    height: 5px;
+}
+
+.phrasebande1{
+    font-family: "Inconsolata";
+    color: rgb(138, 141, 139);
+    font-size: 10px;
+}
+.phrasebande2{
+    font-family: "Inconsolata";
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.iconbande{
+    width: 35px;
+    height: 35px;
+    border: solid black;
+    background-color: white;
+    border-radius: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.imgiconbande{
+    width: 25px;
+    height: 25px;
+
+}
+
+.sms{
+    height: 20px;
+}
+
+
+
+
+.navigateurbande{
+    width:1500px ;
+    height:80px;
+     position: relative;
+    background-color: #ffffff;
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.enbas1 {
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    right: 400px;
+}
+.link{
+    font-size: 14px;
+    color: rgb(149, 154, 151);
+    font-weight: bold;
+    font-family: "Inconsolata";
+}
+
+.enbas2{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.main7{
+    width:100dvw ;
+    height:15dvh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fin{
+    width:1600px ;
+    height:40px;
+    border-top: solid rgb(162, 169, 165);
+     
+    background-color: #ffffff;
+    justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.faitpar{
+    font-family: "Inconsolata";
+    font-weight: bold;
+    color: rgb(138, 141, 139);
+    font-size: 15px;
+}
+.copyright{
+    font-family: "Inconsolata";
+    font-weight: bold;
+    color: rgb(138, 141, 139);
+    font-size: 15px;
+}
